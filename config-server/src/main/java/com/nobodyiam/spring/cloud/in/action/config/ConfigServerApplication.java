@@ -11,9 +11,8 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 @SpringBootApplication
 public class ConfigServerApplication {
 
-  public static void main(String[] args) {
-    new SpringApplicationBuilder(ConfigServerApplication.class)
-            .run(args);
-  }
+    public static void main(String[] args) {
+        new SpringApplicationBuilder(ConfigServerApplication.class).run(args);
+    }
 
 }
